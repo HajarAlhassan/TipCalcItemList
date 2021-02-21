@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MyResume</title>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+
+
+#mainHeader {
+  width: 100%;
+  height: 100%;
+  font-size: 35px;
+  color: white;
+  padding: 0;
+  display: flex;
+  
+}
+#mainHeader div:nth-of-type(1) {flex-basis:30%;}
+#mainHeader div:nth-of-type(2) {flex-basis: 50%;}
+#mainHeader div:nth-of-type(3) {flex-basis: 20%; }
+/*
+#mainHeader div:nth-of-type(1) {flex-grow:1;}
+#mainHeader div:nth-of-type(2) {flex-grow: 2;}
+#mainHeader div:nth-of-type(3) {flex-grow: 1; }
+*/
+/*style the name*/
+.nameSty{
+text-align: left;
+font-family: fantasy;
+color: rgb(195, 191, 230);
+padding-left: 20px;
+margin-top:20px;
+margin-bottom: 40px;}
+
+/* Style the profile picture */
+.mypic{
+	
+	  margin: 0;
+	   padding: 0;
+	  
+
+
+}
+/* style contact me section*/
+pre{
+	font-size: 16px;
+	font-weight: bold;
+	font-family:Verdana, Geneva, Tahoma, sans-serif ;
+	text-align: right;
+	color: white;
+	padding-right: 20px;
+	padding-top:20px;
+	line-height: 2;
+	box-sizing: content-box;
+	
+}
+div{
+	
+	background-color: rgb(12, 50, 94);
+}
+/* Style the personal name */
+
+
+/* Create two columns */
+nav {
+  float: left;
+  width: 30%;
+  background: rgb(120, 125, 148);
+  padding: 20px;
+  
+}
+
+/* Style the list inside the menu */
+
+nav dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0;
+}
+/* Style the list inside the education section */
+
+#education {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  
+}
+/* style the main Section*/
+section{
+	word-wrap: break-word;
+	height: 70%;
+}
+/* Clear floats after the columns */
+section::after {
+	content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color:rgb(12, 50, 94);;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+/* style link*/
+a:link,a:visited,a:active{
+	color: white;
+}
+
+</style>
+</head>
+<body>
+
+ 
+
+	<div id="mainHeader">
+	    <img src="profile_pic.jpg" alt="Hajar_Photo" class="mypic" >
+    <div >
+		<p>
+     	 <span class="nameSty">Hajar Alhassan</span><br>
+		 <span style="font-size: 16px;padding-left: 50px;">Informatin Technology Enginer</span></p>
+	    <div style="text-align: center;" ><span>Welcome,thanks  for visiting!</span></div>
+     </div>
+	 <div style="background: rgb(120, 125, 148);
+	      color: white;">
+		
+			<pre>alhasanhajar@gmail.com
+				 (309) 530-8545
+				  Noth Carolina, USA
+				<a href="https://www.linkedin.com/in/hajar-alhassan-503666174/" target="_blank">www.linkedin.com/in/hajar-alhassan</a>
+			     
+			</pre>
+		   
+		</div>
+		 </div>
+
+
+<section   >
+	
+  <nav>
+	<h3>Skills</h3>
+    <dl>
+		
+    <dt>Languages: </dt> 
+	  <dd>C# (2005,2007)
+		  <dd>Visual Basic(2003,2005)</dd>
+		  <dd>Delphi(2005)</dd>
+		  <dd>HTML5, CSS,Bootstrap4,JavaScript,React</dd>
+	  </dd>
+	  <dt>Database:</dt>
+	  <dd>SQL (2005,2008) </dd>
+	  <dd>MS Access (2002,2003,2007)</dd>
+	  <dt>Operating Systems: </dt>
+	  <dd>Windows 98,2000,XP,2003,NT,2008,Windows10</dd>
+      
+   
+  </nav>
+  
+  <div id="education">
+    <h1>Education</h1>
+	<ul>
+    <li>Bachelor Degree in Software Engineering, Excellent GliA University of Al-Baath Homs, Syria.</li>
+	<li>IT Administrative course   UNCC Charlotte NC USA.</li>
+    <li>Web Development course   Goodwill University.</li>
+    </ul>
+	<h1>Academic experience</h1>
+	<ul>
+    <li>Design and implement public web sites for Homs University colleges.</li>
+	<li>Build a library management system for Homs University.</li>
+    <li>•	Design and implement Ex-offender Reentry network App.</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <p>COPY RIGHT @ CAROLINA FINTECH <sub>HUB<sub></sub></p>
+</footer>
+
+</body>
+</html>
