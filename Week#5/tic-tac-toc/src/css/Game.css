@@ -1,0 +1,48 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+ .btn{
+   background-color: rgb(145, 14, 101);
+   color: white;
+   width: 100px;
+   height: 40px;
+ }
+   
+ .btn:hover{
+  background-color: rgb(235, 144, 215);
+  color: rgb(145, 14, 101);
+  width: 105px;
+  height: 43px;
+  font-size: larger;
+  box-shadow: 5px 5px  rgb(221, 61, 168);
+
+}
+  .square {
+    background: rgb(250, 246, 248);
+    border: 1px solid rgb(73, 3, 42);
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    color: rgb(145, 14, 101);
+    box-shadow: 5px 5px  rgb(221, 61, 168);
+  }
+  
+
+  
+   .square:focus {
+    background: #ddd;
+  }
+  
+ 
+
+  
